@@ -88,7 +88,7 @@ void taskCpuRun(void *pvParam) {
 }
 
 void setup() {
-  const char *version = "v0.0.0";
+  const char *version = "v0.1.0";
   Serial.begin(115200);
   Serial.printf("Version: %s\n", version);
   Serial.println("Burn in start!");
